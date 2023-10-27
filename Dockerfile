@@ -9,3 +9,4 @@ RUN apk update &&\
     npm install 
 
 ENTRYPOINT ["npm", "start"]
+USER 10068
